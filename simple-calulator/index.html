@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="counting.png" type="image/x-icon">
+</head>
+<body class="flex items-center justify-center min-h-screen bg-gray-900">
+    <div class="bg-white py-6 px-8 rounded-lg shadow-lg w-96">
+        <h2 class="text-4xl font-semibold text-center mb-4">Calculator</h2>
+        <input type="number" id="num1" class="w-full p-2 border-2 rounded border-gray-500 mb-4 text-xl" placeholder="Enter first number">
+
+        <input type="number" id="num2" class="w-full p-2 border-2 rounded border-gray-500 text-xl" placeholder="Enter second number">
+        <div class="grid grid-cols-2 gap-4 mt-6">
+            <button onclick="calculate('+')" class="bg-red-600 text-xl font-bold text-white py-2 px-5 rounded shadow hover:cursor-pointer hover:bg-red-700">+</button>
+            <button onclick="calculate('-')" class="bg-purple-600 text-xl font-bold text-white py-2 px-5 rounded shadow hover:cursor-pointer hover:bg-purple-700">-</button>
+            <button onclick="calculate('*')" class="bg-orange-500 text-xl font-bold text-white py-2 px-5 rounded shadow hover:cursor-pointer hover:bg-orange-600">×</button>
+            <button onclick="calculate('/')" class="bg-cyan-500 text-xl font-bold text-white py-2 px-5 rounded shadow hover:cursor-pointer hover:bg-cyan-600">÷</button>
+        </div>
+        <div class="mt-6">
+            <p class="text-2xl font-semibold text-gray-800 text-center">Result: <span id="result">0</span></p>
+           
+        </div>
+        <button onclick="clearFields()" class="bg-blue-600 text-xl font-bold text-white py-2 px-5 mt-6 w-full rounded shadow hover:cursor-pointer hover:bg-blue-700">Clear</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
