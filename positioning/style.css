@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+}
+
+.op1{
+    text-align: center;
+    padding: 20px;
+    background-color: chartreuse;
+    font-size: 34px;
+    opacity: 0.2;
+}
+
+.op2{
+    text-align: center;
+    padding: 20px;
+    background-color: chartreuse;
+    font-size: 34px;
+    opacity: 0.4;
+}
+
+.op3{
+    text-align: center;
+    padding: 20px;
+    background-color: chartreuse;
+    font-size: 34px;
+    opacity: 0.6;
+}
+
+.op4{
+    text-align: center;
+    padding: 20px;
+    background-color: chartreuse;
+    font-size: 34px;
+    opacity: 0.8;
+}
+
+.op5{
+    text-align: center;
+    padding: 20px;
+    background-color: chartreuse;
+    font-size: 34px;
+}
+
+.op6{
+    text-align: center;
+    padding: 10px;
+    background-color: crimson;
+    font-size: 34px;
+    position: sticky;
+    top: 0;
+}
+
+
+.youtube{
+    position: fixed;
+    bottom: 10px;
+    right: 16px;
+    z-index: 10;
+}
+
+.container{
+    position: relative;
+    border: 5px solid greenyellow;
+    height: 400px;
+}
+
+.child1{
+    padding: 10px;
+    width: fit-content;
+    background-color: chocolate;
+    position: absolute;
+   bottom: 0;
+
+}
